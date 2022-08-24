@@ -1,0 +1,21 @@
+CREATE TABLE shrimp (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quantity INTEGER, package TEXT);
+
+INSERT INTO shrimp VALUES (1, "Shrimp Kabob", "$4.99", "2", "Plate");
+INSERT INTO shrimp VALUES (2, "Grilled Shrimp", "$6.99", "6", "Plate");
+INSERT INTO shrimp VALUES (3, "Shrimp Creole", "$3.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (4, "Shrimp Gumbo", "$4.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (5, "Frid Shrimp", "$9.99", "6", "Plate");
+INSERT INTO shrimp VALUES (6, "Pinapple Shrimp", "$8.99", "5", "Plate");
+INSERT INTO shrimp VALUES (7, "Stir-Fried Shrimp", "$5.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (8, "Lemon Shrimp", "$5.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (9, "Coconut Shrimp", "$8.99", "6", "Plate");
+INSERT INTO shrimp VALUES (10, "Pepper Shrimp", "$8.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (11, "Shrimp Soup", "$4.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (12, "Shrimp Stew", "$4.99", "1", "Bowl");
+INSERT INTO shrimp VALUES (13, "Shrimp Salad", "$6.99", "1", "Plate");
+INSERT INTO shrimp VALUES (14, "Shrimp Burger", "$9.99", "1", "Plate");
+INSERT INTO shrimp VALUES (15, "Shrimp Sandwich", "$8.99", "1", "Plate");
+
+SELECT * FROM shrimp ORDER by price asc;
+
+
